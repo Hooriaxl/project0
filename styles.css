@@ -1,0 +1,114 @@
+h1 {
+  color: black;
+  text-align: center;
+}
+h2 {
+  color: cadetblue;
+  text-align: center;
+}
+p {
+  color: black;
+  text-align: center;
+}
+
+#table {
+  margin: auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 50%;
+  align-content: center;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 4px;
+  text-align: center;
+}
+.container,
+p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  clear: both;
+  font-size: 12px;
+  width: 100%;
+  letter-spacing: 1px;
+  color: indigo;
+}
+
+.light {
+  background-color: coral;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+}
+.pa {
+  background-color: lightcyan;
+  color: red;
+  text-align: center;
+  font-size: 12px;
+}
+#menu,
+h5 {
+  color: black;
+  clear: both;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 1px;
+  padding: 10px;
+  align-content: left;
+}
+/* #content,p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    clear: both;
+    font-size: 10px;
+    padding: 20px;
+    width: 100%;
+    letter-spacing: .5px;
+    color:black;
+    text-align:center;
+} */
+#pie,
+h6 {
+  background-color: lightblue;
+  clear: both;
+  padding: 3px;
+  text-align: center;
+  font-size: 11px;
+}
+
+@media (min-width: 700px) {
+  p {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 800px) {
+  p {
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
+}
+
+/* menu para la pagina vision*/
+#enlaces {
+  color: black;
+  clear: both;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 1px;
+  padding: 25px;
+  align-content: center;
+  text-align: left;
+}
+
+/* li {
+    color:black;
+    font-size: 15px;    
+    line-height: 1;
+    letter-spacing: 1px;
+    padding: 10px;
+    width: 55px;
+
+  } */
